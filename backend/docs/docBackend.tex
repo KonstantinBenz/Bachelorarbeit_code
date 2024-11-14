@@ -1,0 +1,132 @@
+\documentclass[%
+	paper=a4,           % DIN A4
+	12pt,               % Schriftgröße 12
+	parskip=full,       % eine Zeile Absatzabstand
+	oneside,            % einseitig
+	listof=totoc,		% alle Verzeichnisse in ToC einbinden
+	bibliography=totoc,
+	toc=listof,
+	toc=chapterentrydotfill % ToC Punkte
+]{scrreprt}             % KOMA Skript Report
+\raggedbottom
+\usepackage{xstring}		            % für Stringvergleich
+\usepackage[utf8]{inputenc}         	% Quelldateicodierung
+\usepackage[T1]{fontenc}	            % Fontmap-Kodierung, diese wird von der pdflatex-Engine benötigt
+\usepackage[english, ngerman]{babel}	% Sprache
+\usepackage{booktabs}
+\usepackage[left=2cm,right=2cm,bottom=3cm,top=3cm]{geometry}
+\usepackage[onehalfspacing]{setspace}   % Zeilenabstand
+\usepackage{helvet}     % Arial like
+\usepackage{float}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\textg}[1]{\glqq {#1}\grqq{}}
+
+\title{Dokumentation des Backends der Bachelorarbeit}
+\author{Konstantin Benz}
+\date{\today}
+\begin{document}
+\maketitle
+\section*{Konfigurationsdatei}
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \begin{tabular}{p{3.5cm}p{2.5cm}p{10.5cm}}
+        \toprule
+        \textbf{Parametername}           & \textbf{Standardwert} & \textbf{Beschreibung}                                                               \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[FastAPI]}}                                                                                                         \\
+        \texttt{enable\_tls}             & "true"                & Aktiviert TLS-Verschlüsselung für sichere Kommunikation.                            \\
+        \texttt{ip\_address}             & "0.0.0.0"             & IP-Adresse, an die der FastAPI-Server gebunden wird.                                \\
+        \texttt{port}                    & "8000"                & Portnummer, auf dem der FastAPI-Server hört.                                        \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[cors]}}                                                                                                            \\
+        \texttt{allow\_origins}          & ["*"]                 & Liste der erlaubten Ursprünge für CORS-Anfragen (\textg{*} erlaubt alle Ursprünge). \\
+        \texttt{allow\_credentials}      & "True"                & Aktiviert die Unterstützung von Benutzerdaten in CORS-Anfragen.                     \\
+        \texttt{allow\_methods}          & ["*"]                 & Liste der erlaubten HTTP-Methoden (\textg{*} erlaubt alle Methoden).                \\
+        \texttt{allow\_headers}          & ["*"]                 & Liste der erlaubten Header in CORS-Anfragen.                                        \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[vectorDatabase]}}                                                                                                  \\
+        \texttt{embedding\_model}        & "BAAI/bge-m3"         & Gibt das Embedding-Modell an, das zur Vektorisierung von Daten verwendet wird.      \\
+        \texttt{use\_gpu}                & "false"               & Bestimmt, ob eine GPU für Berechnungen verwendet werden soll.                       \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[opcua]}}                                                                                                           \\
+        \texttt{opcua\_interval}         & "2000"                & Intervall (in Millisekunden) für OPC UA-Subscriptions.                              \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[llm]}}                                                                                                             \\
+        \texttt{use\_local\_LLM}         & "false"               & Legt fest, ob ein lokales LLM oder ein Cloud-basiertes Modell verwendet wird.       \\
+        \texttt{llm\_local\_fileName}    & "Beispiel.gguf"       & Dateiname für das lokale LLM-Modell.                                                \\
+        \texttt{llm\_local\_ctxsize}     & "8192"                & Kontextgröße des lokalen LLM (maximales Tokenfenster).                              \\
+        \texttt{llm\_local\_layers}      & "40"                  & Anzahl der Schichten in der Architektur des lokalen LLM.                            \\
+        \texttt{llm\_local\_batchsize}   & "256"                 & Batch-Größe, die für Inferenzen mit dem lokalen LLM verwendet wird.                 \\
+        \texttt{llm\_cloud\_hoster}      & "cohere"              & Cloud-Anbieter für das LLM, wenn kein lokales Modell verwendet wird.                \\
+        \texttt{llm\_cloud\_model}       & "command-r"           & Cloud-LLM-Modell, das verwendet werden soll.                                        \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[Beispielmaschine]}} (Parameter müssen ermittelt werden)                                                            \\
+        \texttt{type}                    & "z.B. nbh630"         & Typkennung für die Maschine.                                                        \\
+        \texttt{ip\_address}             & "127.0.0.1"           & IP-Adresse des OPC UA-Servers für diese Maschine.                                   \\
+        \texttt{port}                    & "4840"                & Portnummer des OPC UA-Servers für diese Maschine.                                   \\
+        \texttt{vdb\_name}               & "z.B. nbh630"         & Name der Vektordatenbank für diese Maschine.                                        \\
+        \texttt{from\_node\_id}          & "ns=2;i=2"            & Start-Knoten-ID für die OPC UA-Datenextraktion.                                     \\
+        \texttt{to\_node\_id}            & "ns=2;i=34"           & End-Knoten-ID für die OPC UA-Datenextraktion.                                       \\
+        \texttt{additional\_prompt}      & "Beispiel"            & Zusätzlicher Eingabetext für das LLM (falls vorhanden).                             \\
+        \texttt{opcua\_use\_certificate} & "false"               & Gibt an, ob die Zertifikatsauthentifizierung für OPC UA verwendet wird.             \\
+        \texttt{opcua\_username}         & "user"                & Benutzername für die OPC UA-Authentifizierung.                                      \\
+        \texttt{opcua\_password}         & "pass"                & Passwort für die OPC UA-Authentifizierung.                                          \\
+        \bottomrule
+    \end{tabular}
+    \caption{Konfigurationsparameter des Backends}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \begin{tabular}{p{2cm}p{4cm}p{10cm}}
+        \toprule
+        \textbf{Cloud-Anbieter} & \textbf{Modellname}             & \textbf{Beschreibung}                                                \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[Groq]}}                                                                                              \\
+        \texttt{groq}           & \texttt{llama3-8b-8192}         & LLaMA 3, 8 Milliarden Parameter, Kontextgröße 8192 Tokens.           \\
+        \texttt{groq}           & \texttt{llama3-70b-8192}        & LLaMA 3, 70 Milliarden Parameter, Kontextgröße 8192 Tokens.          \\
+        \texttt{groq}           & \texttt{mixtral-8x7b-32768}     & Mixtral-Modell, 8x7 Milliarden Parameter, Kontextgröße 32768 Tokens. \\
+        \texttt{groq}           & \texttt{gemma-7b-it}            & Gemma-Modell, 7 Milliarden Parameter, optimiert für Italienisch.     \\
+        \texttt{groq}           & \texttt{gemma2-9b-it}           & Gemma 2, 9 Milliarden Parameter, optimiert für Italienisch.          \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[OpenAI]}}                                                                                            \\
+        \texttt{openai}         & \texttt{gpt-4o}                 & GPT-4o, optimierte Version von GPT-4.                                \\
+        \texttt{openai}         & \texttt{gpt-3.5}                & GPT-3.5, Modell für generelle Anwendungen.                           \\
+        \texttt{openai}         & \texttt{gpt-4}                  & GPT-4, leistungsfähigeres Modell mit größerem Kontextfenster.        \\
+        \texttt{openai}         & \texttt{gpt-3.5-turbo-instruct} & GPT-3.5 Turbo, optimiert für schnelle Anweisungsverarbeitung.        \\
+        \midrule
+        \multicolumn{3}{l}{\textbf{[Cohere]}}                                                                                            \\
+        \texttt{cohere}         & \texttt{command-r}              & Command-R, Modell von Cohere für Anweisungsverarbeitung.             \\
+        \texttt{cohere}         & \texttt{command-r-plus}         & Command-R Plus, erweiterte Version mit besserer Leistung.            \\
+        \bottomrule
+    \end{tabular}
+    \caption{Verfügbare LLM-Modelle und deren Optionen}
+\end{table}
+
+\section*{Erklärung zur Auswahl der LLMs}
+
+In der Konfigurationsdatei kann die Auswahl eines LLMs durch das Setzen der folgenden Parameter erfolgen:
+
+\begin{itemize}
+    \item \texttt{llm\_cloud\_hoster}: Definiert den Cloud-Anbieter, der für das Hosting des LLMs verantwortlich ist. Mögliche Optionen sind \texttt{"groq"}, \texttt{"openai"} oder \texttt{"cohere"}.
+    \item \texttt{llm\_cloud\_model}: Legt das spezifische LLM-Modell fest, das verwendet werden soll. Zum Beispiel könnte \texttt{"gpt-4"} für OpenAI oder \texttt{"command-r"} für Cohere gewählt werden.
+\end{itemize}
+
+\pagebreak
+
+\textbf{Beispielkonfiguration:}
+
+\begin{verbatim}
+    [llm]
+    llm_cloud_hoster = "openai"
+    llm_cloud_model  = "gpt-4"
+    \end{verbatim}
+
+In diesem Beispiel wird OpenAI als Cloud-Anbieter genutzt, und das GPT-4-Modell wird für die Verarbeitung ausgewählt.
+
+Die Wahl des Modells hängt von der jeweiligen Anwendung ab und beeinflusst die Performance und die Verarbeitungsfähigkeit des Systems.
+LLMs mit mehr Parametern und größerem Kontextfenster, wie \texttt{gpt-4} oder \texttt{llama3-70b-8192}, bieten in der Regel genauere Ergebnisse, erfordern jedoch auch mehr Rechenleistung.
+\end{document}

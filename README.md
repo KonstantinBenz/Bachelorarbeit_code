@@ -1,1 +1,1 @@
-# Bachelorarbeit_code
+# Code meiner Bachelorarbeit

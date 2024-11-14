@@ -1,0 +1,448 @@
+2024-09-16 12:06:45,216 - logger - INFO - SSL encryption is enabled.
+2024-09-16 12:06:45,217 - logger - INFO - Creating cloud LLM instance
+2024-09-16 12:06:45,224 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 12:06:50,715 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 12:07:11,363 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 12:07:11,363 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 12:07:11,378 - logger - INFO - RAG system initialized.
+2024-09-16 12:07:11,380 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 12:07:14,617 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 12:07:14,617 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 12:07:16,674 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 12:07:16,675 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 12:07:16,675 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 12:07:18,727 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 12:07:18,727 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 12:07:18,733 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 12:13:38,148 - logger - INFO - SSL encryption is enabled.
+2024-09-16 12:13:38,148 - logger - INFO - Creating cloud LLM instance
+2024-09-16 12:13:38,156 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 12:13:40,684 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 12:13:50,940 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 12:13:50,940 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 12:13:50,940 - logger - INFO - RAG system initialized.
+2024-09-16 12:13:50,940 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 12:13:54,852 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 12:13:54,852 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 12:13:56,871 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 12:13:56,871 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 12:13:56,871 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 12:13:58,906 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 12:13:58,907 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 12:13:58,912 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 14:20:33,858 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:20:33,859 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:20:33,864 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:20:36,787 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:20:47,808 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:20:47,812 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:20:47,813 - logger - INFO - RAG system initialized.
+2024-09-16 14:20:47,813 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:21:23,469 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:21:23,469 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:21:23,478 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:21:26,058 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:21:36,174 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:21:36,174 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:21:36,174 - logger - INFO - RAG system initialized.
+2024-09-16 14:21:36,174 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:21:39,376 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 14:21:39,376 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 14:22:49,691 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:22:49,691 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:22:49,691 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:22:52,559 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:23:02,969 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:23:02,969 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:23:02,969 - logger - INFO - RAG system initialized.
+2024-09-16 14:23:02,969 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:23:06,614 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 14:23:06,614 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 14:23:08,631 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:23:08,631 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 14:23:08,631 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 14:23:10,651 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:23:10,651 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 14:23:10,665 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 14:25:15,874 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:25:15,874 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:25:15,874 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:25:18,403 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:25:28,557 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:25:28,557 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:25:28,557 - logger - INFO - RAG system initialized.
+2024-09-16 14:25:28,557 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:25:32,683 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 14:25:32,683 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 14:25:34,705 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:25:34,705 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 14:25:34,705 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 14:25:36,735 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:25:36,736 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 14:25:36,740 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 14:40:15,955 - logger - INFO - Converting true to True.
+2024-09-16 14:40:15,955 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 14:40:15,955 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 14:40:15,955 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:40:15,955 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:40:15,955 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:40:18,940 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:40:29,233 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:40:29,233 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:40:29,233 - logger - INFO - RAG system initialized.
+2024-09-16 14:40:29,233 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:40:32,362 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 14:40:32,363 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 14:40:34,376 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:40:34,376 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 14:40:34,376 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 14:40:36,412 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:40:36,412 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 14:40:36,412 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 14:46:01,464 - logger - INFO - Converting true to True.
+2024-09-16 14:46:01,464 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 14:46:01,464 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 14:46:01,464 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:46:01,464 - logger - INFO - Converting True to True.
+2024-09-16 14:46:01,464 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:46:01,464 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:46:01,464 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 14:46:01,464 - logger - WARNING - Unexpected value for boolean conversion: true" ; only supported on cuda compiled torch
+2024-09-16 14:46:01,464 - logger - ERROR - Error converting true" ; only supported on cuda compiled torch to bool: Cannot convert true" ; only supported on cuda compiled torch to bool.
+2024-09-16 14:47:34,107 - logger - INFO - Converting true to True.
+2024-09-16 14:47:34,107 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 14:47:34,107 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 14:47:34,107 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:47:34,107 - logger - INFO - Converting True to True.
+2024-09-16 14:47:34,107 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:47:34,117 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:47:34,117 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 14:47:34,117 - logger - INFO - Converting true to True.
+2024-09-16 14:47:34,117 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 14:47:34,117 - logger - INFO - Converting false to False.
+2024-09-16 14:47:34,120 - logger - INFO - Converting test.gguf to test.gguf.
+2024-09-16 14:47:34,121 - logger - INFO - Converting 256 to 256.
+2024-09-16 14:47:34,121 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 14:47:34,122 - logger - INFO - Converting 40 to 40.
+2024-09-16 14:47:34,123 - logger - INFO - Converting cohere to cohere.
+2024-09-16 14:47:34,123 - logger - INFO - Converting command-r to command-r.
+2024-09-16 14:47:34,124 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:47:34,125 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:47:34,126 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:47:36,752 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:48:08,372 - logger - INFO - Converting true to True.
+2024-09-16 14:48:08,372 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 14:48:08,372 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 14:48:08,372 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:48:08,372 - logger - INFO - Converting True to True.
+2024-09-16 14:48:08,382 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:48:08,382 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 14:48:08,382 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 14:48:08,382 - logger - INFO - Converting false to False.
+2024-09-16 14:48:08,382 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 14:48:08,382 - logger - INFO - Converting false to False.
+2024-09-16 14:48:08,385 - logger - INFO - Converting test.gguf to test.gguf.
+2024-09-16 14:48:08,386 - logger - INFO - Converting 256 to 256.
+2024-09-16 14:48:08,387 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 14:48:08,387 - logger - INFO - Converting 40 to 40.
+2024-09-16 14:48:08,388 - logger - INFO - Converting cohere to cohere.
+2024-09-16 14:48:08,388 - logger - INFO - Converting command-r to command-r.
+2024-09-16 14:48:08,390 - logger - INFO - SSL encryption is enabled.
+2024-09-16 14:48:08,390 - logger - INFO - Creating cloud LLM instance
+2024-09-16 14:48:08,390 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 14:48:11,052 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 14:48:21,366 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 14:48:21,370 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 14:48:21,371 - logger - INFO - RAG system initialized.
+2024-09-16 14:48:21,372 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 14:48:24,515 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 14:48:24,516 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 14:48:26,533 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:48:26,533 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 14:48:26,533 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 14:48:28,602 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 14:48:28,602 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 14:48:28,602 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 16:08:17,953 - logger - INFO - Converting true to True.
+2024-09-16 16:08:17,953 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:08:17,953 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:08:17,969 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:08:17,969 - logger - INFO - Converting True to True.
+2024-09-16 16:08:17,969 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:08:17,969 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:08:17,969 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:08:17,969 - logger - INFO - Converting false to False.
+2024-09-16 16:08:17,969 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:08:17,969 - logger - INFO - Converting false to False.
+2024-09-16 16:08:17,969 - logger - INFO - Converting test.gguf to test.gguf.
+2024-09-16 16:08:17,974 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:08:17,974 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:08:17,975 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:08:17,976 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:08:17,977 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:08:17,978 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:08:17,978 - logger - INFO - Creating cloud LLM instance
+2024-09-16 16:08:17,979 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 16:08:24,499 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 16:08:42,296 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 16:08:42,296 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 16:08:42,296 - logger - INFO - RAG system initialized.
+2024-09-16 16:08:42,296 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 16:09:23,043 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 16:09:23,043 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 16:09:23,043 - logger - INFO - Connected to OPC UA server at 127.0.0.1:4840
+2024-09-16 16:09:23,061 - logger - ERROR - Failed to create subscription for 127.0.0.1:4840: 'Machine' object has no attribute 'nodeID'
+2024-09-16 16:09:23,061 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:09:23,066 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:09:25,080 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 16:09:25,080 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 16:09:25,080 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 16:10:56,221 - logger - INFO - Converting true to True.
+2024-09-16 16:10:56,221 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:10:56,223 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:10:56,223 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:10:56,223 - logger - INFO - Converting True to True.
+2024-09-16 16:10:56,223 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:10:56,223 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:10:56,223 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:10:56,223 - logger - INFO - Converting false to False.
+2024-09-16 16:10:56,223 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:10:56,223 - logger - INFO - Converting false to False.
+2024-09-16 16:10:56,223 - logger - INFO - Converting test.gguf to test.gguf.
+2024-09-16 16:10:56,223 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:10:56,229 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:10:56,229 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:10:56,231 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:10:56,231 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:10:56,232 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:10:56,233 - logger - INFO - Creating cloud LLM instance
+2024-09-16 16:10:56,234 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 16:10:59,066 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 16:11:10,058 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 16:11:10,058 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 16:11:10,058 - logger - INFO - RAG system initialized.
+2024-09-16 16:11:10,058 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 16:11:12,958 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 16:11:12,958 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 16:11:12,968 - logger - INFO - Connected to OPC UA server at 127.0.0.1:4840
+2024-09-16 16:11:12,974 - logger - INFO - Subscription created for 127.0.0.1:4840 with interval 2000ms
+2024-09-16 16:11:12,974 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:11:12,975 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:11:12,981 - logger - INFO - Data change detected on machine test_nbh630 (type: nbh630) on node ns=2;i=2: Welche Lizenz hat Wikipedia?
+2024-09-16 16:11:12,982 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:11:12,982 - logger - INFO - Machine type nbh630 is different from current VDB type None. Loading new VDB...
+2024-09-16 16:11:13,381 - logger - INFO - Loaded vector database nbh630 successfully.
+2024-09-16 16:11:13,381 - logger - INFO - VDB loaded for machine type nbh630.
+2024-09-16 16:11:13,381 - logger - INFO - Cache miss for query: 83c60ea7ee45074a778bdee9305ee97045b73c7d3d9ce6dbe34d380ed738a0b6
+2024-09-16 16:11:19,760 - logger - INFO - RAG response generated for machine test_nbh630: Die Maschine teilt mit, dass Wikipedia unter der Creative-Commons-Namensnennung-Lizenz – Weitergabe unter gleichen Bedingungen verfügbar ist.
+2024-09-16 16:11:19,775 - logger - INFO - Response cached for query: 83c60ea7ee45074a778bdee9305ee97045b73c7d3d9ce6dbe34d380ed738a0b6
+2024-09-16 16:11:19,775 - logger - INFO - Response cached for future use: Die Maschine nbh630 sendet eine Nachricht. Die Nachricht lautet Welche Lizenz hat Wikipedia?. Was bedeutet diese Nachricht? antworte AUSSCHLIESSLICH auf Deutsch!
+2024-09-16 16:11:19,775 - logger - INFO - RAG response for machine test_nbh630 (node ns=2;i=2): Die Maschine teilt mit, dass Wikipedia unter der Creative-Commons-Namensnennung-Lizenz – Weitergabe unter gleichen Bedingungen verfügbar ist.
+2024-09-16 16:11:19,775 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:11:19,786 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:11:19,786 - logger - WARNING - No WebSockets found for tenant test_nbh630
+2024-09-16 16:11:19,786 - logger - INFO - Frontend instance created for tenant test_nbh630 at https://localhost:8000/test_nbh630
+2024-09-16 16:11:19,790 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 16:11:19,791 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 16:11:19,798 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 16:11:42,830 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:11:42,965 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:11:43,024 - logger - ERROR - HTML file for tenant favicon.ico not found at tenants\favicon.ico\index.html
+2024-09-16 16:11:43,634 - logger - INFO - WebSocket connection attempt for machineName: test_nbh630
+2024-09-16 16:11:43,636 - logger - INFO - New WebSocket connection for tenant test_nbh630
+2024-09-16 16:12:03,554 - logger - INFO - Received message from tenant test_nbh630: test
+2024-09-16 16:12:18,981 - logger - INFO - Data change detected on machine test_nbh630 (type: nbh630) on node ns=2;i=2: Wie oft hat das Bundesverfassungsgericht ein Rechtsgutachten erstellt?
+2024-09-16 16:12:18,982 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:12:18,982 - logger - INFO - Cache miss for query: e599b9b7e1808aa71e719f51166e06ecf4ac98fa72373faee612786dd6abaf0d
+2024-09-16 16:12:20,204 - logger - INFO - RAG response generated for machine test_nbh630: Die Maschine bittet um die Anzahl der Rechtsgutachten, die vom Bundesverfassungsgericht erstellt wurden.
+2024-09-16 16:12:20,223 - logger - INFO - Response cached for query: e599b9b7e1808aa71e719f51166e06ecf4ac98fa72373faee612786dd6abaf0d
+2024-09-16 16:12:20,224 - logger - INFO - Response cached for future use: Die Maschine nbh630 sendet eine Nachricht. Die Nachricht lautet Wie oft hat das Bundesverfassungsgericht ein Rechtsgutachten erstellt?. Was bedeutet diese Nachricht? antworte AUSSCHLIESSLICH auf Deutsch!
+2024-09-16 16:12:20,225 - logger - INFO - RAG response for machine test_nbh630 (node ns=2;i=2): Die Maschine bittet um die Anzahl der Rechtsgutachten, die vom Bundesverfassungsgericht erstellt wurden.
+2024-09-16 16:12:20,226 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:12:20,237 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:12:20,238 - logger - ERROR - Error creating tenant instance or sending message for test_nbh630: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+2024-09-16 16:13:14,642 - logger - INFO - Converting true to True.
+2024-09-16 16:13:14,642 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:13:14,642 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:13:14,642 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:13:14,642 - logger - INFO - Converting True to True.
+2024-09-16 16:13:14,642 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:13:14,642 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:13:14,642 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:13:14,642 - logger - INFO - Converting false to False.
+2024-09-16 16:13:14,642 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:13:14,642 - logger - INFO - Converting false to False.
+2024-09-16 16:13:14,642 - logger - INFO - Converting test.gguf to test.gguf.
+2024-09-16 16:13:14,642 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:13:14,642 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:13:14,650 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:13:14,650 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:13:14,651 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:13:14,652 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:13:14,652 - logger - INFO - Creating cloud LLM instance
+2024-09-16 16:13:14,653 - logger - INFO - Setting up LLM with provider: cohere, model: command-r
+2024-09-16 16:13:17,396 - logger - INFO - Cohere LLM set up successfully with model command-r.
+2024-09-16 16:13:28,045 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 16:13:28,045 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 16:13:28,045 - logger - INFO - RAG system initialized.
+2024-09-16 16:13:28,045 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 16:13:39,599 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 16:13:39,600 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 16:13:39,609 - logger - INFO - Connected to OPC UA server at 127.0.0.1:4840
+2024-09-16 16:13:39,614 - logger - INFO - Subscription created for 127.0.0.1:4840 with interval 2000ms
+2024-09-16 16:13:39,614 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:13:39,619 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:13:39,622 - logger - INFO - Data change detected on machine test_nbh630 (type: nbh630) on node ns=2;i=2: Wie oft hat das Bundesverfassungsgericht ein Rechtsgutachten erstellt?
+2024-09-16 16:13:39,622 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:13:39,622 - logger - INFO - Machine type nbh630 is different from current VDB type None. Loading new VDB...
+2024-09-16 16:13:39,672 - logger - INFO - Loaded vector database nbh630 successfully.
+2024-09-16 16:13:39,672 - logger - INFO - VDB loaded for machine type nbh630.
+2024-09-16 16:13:39,672 - logger - INFO - Cache hit for query: e599b9b7e1808aa71e719f51166e06ecf4ac98fa72373faee612786dd6abaf0d
+2024-09-16 16:13:39,672 - logger - INFO - Cache hit for machine nbh630. Returning cached response.
+2024-09-16 16:13:39,672 - logger - INFO - RAG response for machine test_nbh630 (node ns=2;i=2): Die Maschine bittet um die Anzahl der Rechtsgutachten, die vom Bundesverfassungsgericht erstellt wurden.
+2024-09-16 16:13:39,672 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:13:39,687 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:13:39,688 - logger - WARNING - No WebSockets found for tenant test_nbh630
+2024-09-16 16:13:39,688 - logger - INFO - Frontend instance created for tenant test_nbh630 at https://localhost:8000/test_nbh630
+2024-09-16 16:13:41,646 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 16:13:41,647 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 16:13:41,654 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 16:13:46,937 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:13:47,005 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:13:47,638 - logger - INFO - WebSocket connection attempt for machineName: test_nbh630
+2024-09-16 16:13:47,638 - logger - INFO - New WebSocket connection for tenant test_nbh630
+2024-09-16 16:13:54,970 - logger - INFO - Received message from tenant test_nbh630: 1000
+2024-09-16 16:13:54,971 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:13:54,971 - logger - INFO - Cache miss for query: fc1bb2849a60d50693554188c9376273da100a54740a7a1eee8a62fc4246f651
+2024-09-16 16:13:56,546 - logger - INFO - RAG response generated for machine test_nbh630: Leider kann ich die Bedeutung der Nachricht "1000" im Zusammenhang mit der Maschine nbh630 nicht anhand der gegebenen Kontextinformationen ableiten. Die genannten Quellen enthalten keine entsprechenden Hinweise. Daher kann ich die Frage nicht beantworten.
+2024-09-16 16:13:56,564 - logger - INFO - Response cached for query: fc1bb2849a60d50693554188c9376273da100a54740a7a1eee8a62fc4246f651
+2024-09-16 16:13:56,565 - logger - INFO - Response cached for future use: Die Maschine nbh630 sendet eine Nachricht. Die Nachricht lautet 1000. Was bedeutet diese Nachricht? antworte AUSSCHLIESSLICH auf Deutsch!
+2024-09-16 16:13:56,566 - logger - INFO - Sending response to tenant test_nbh630: Leider kann ich die Bedeutung der Nachricht "1000" im Zusammenhang mit der Maschine nbh630 nicht anhand der gegebenen Kontextinformationen ableiten. Die genannten Quellen enthalten keine entsprechenden Hinweise. Daher kann ich die Frage nicht beantworten.
+2024-09-16 16:13:56,570 - logger - INFO - Message sent to tenant test_nbh630: Leider kann ich die Bedeutung der Nachricht "1000" im Zusammenhang mit der Maschine nbh630 nicht anhand der gegebenen Kontextinformationen ableiten. Die genannten Quellen enthalten keine entsprechenden Hinweise. Daher kann ich die Frage nicht beantworten.
+2024-09-16 16:15:00,729 - logger - INFO - Received message from tenant test_nbh630: okay, schade
+2024-09-16 16:15:00,730 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:15:00,730 - logger - INFO - Cache miss for query: 2b6e221e7eba299cfaf139d04b8010d4eefbb7726ac6d5436951620fe29811e2
+2024-09-16 16:15:01,813 - logger - INFO - RAG response generated for machine test_nbh630: Die Nachricht bedeutet auf Deutsch: Schade, nicht erfolgreich.
+2024-09-16 16:15:01,828 - logger - INFO - Response cached for query: 2b6e221e7eba299cfaf139d04b8010d4eefbb7726ac6d5436951620fe29811e2
+2024-09-16 16:15:01,829 - logger - INFO - Response cached for future use: Die Maschine nbh630 sendet eine Nachricht. Die Nachricht lautet okay, schade. Was bedeutet diese Nachricht? antworte AUSSCHLIESSLICH auf Deutsch!
+2024-09-16 16:15:01,831 - logger - INFO - Sending response to tenant test_nbh630: Die Nachricht bedeutet auf Deutsch: Schade, nicht erfolgreich.
+2024-09-16 16:15:01,833 - logger - INFO - Message sent to tenant test_nbh630: Die Nachricht bedeutet auf Deutsch: Schade, nicht erfolgreich.
+2024-09-16 16:21:42,469 - logger - INFO - WebSocket disconnected for tenant test_nbh630
+2024-09-16 16:21:42,470 - logger - WARNING - WebSocket disconnected unexpectedly for tenant test_nbh630
+2024-09-16 16:21:47,849 - logger - INFO - Converting true to True.
+2024-09-16 16:21:47,850 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:21:47,851 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:21:47,851 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:21:47,852 - logger - INFO - Converting True to True.
+2024-09-16 16:21:47,853 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:21:47,853 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:21:47,854 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:21:47,854 - logger - INFO - Converting false to False.
+2024-09-16 16:21:47,855 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:21:47,856 - logger - INFO - Converting true to True.
+2024-09-16 16:21:47,859 - logger - INFO - Converting qwen2-1_5b-instruct-q4_k_m.gguf to qwen2-1_5b-instruct-q4_k_m.gguf.
+2024-09-16 16:21:47,860 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:21:47,861 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:21:47,861 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:21:47,862 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:21:47,864 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:21:47,868 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:21:47,871 - logger - INFO - Creating local LLM instance
+2024-09-16 16:22:52,069 - logger - INFO - Converting true to True.
+2024-09-16 16:22:52,070 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:22:52,071 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:22:52,071 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:22:52,072 - logger - INFO - Converting True to True.
+2024-09-16 16:22:52,072 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:22:52,073 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:22:52,074 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:22:52,074 - logger - INFO - Converting false to False.
+2024-09-16 16:22:52,075 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:22:52,075 - logger - INFO - Converting true to True.
+2024-09-16 16:22:52,076 - logger - INFO - Converting qwen2-1_5b-instruct-q4_k_m.gguf to qwen2-1_5b-instruct-q4_k_m.gguf.
+2024-09-16 16:22:52,077 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:22:52,077 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:22:52,078 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:22:52,079 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:22:52,080 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:22:52,081 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:22:52,081 - logger - INFO - Creating local LLM instance
+2024-09-16 16:22:54,590 - logger - INFO - Initialized LocalLLM instance with configuration parameters.
+2024-09-16 16:23:01,830 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 16:23:01,835 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 16:23:01,837 - logger - INFO - RAG system initialized.
+2024-09-16 16:23:01,838 - logger - INFO - Frontend initialized and tenants directory mounted.
+2024-09-16 16:23:09,279 - logger - INFO - Converting nbh630 to nbh630.
+2024-09-16 16:23:09,280 - logger - INFO - Converting 127.0.0.1 to 127.0.0.1.
+2024-09-16 16:23:09,280 - logger - INFO - Converting 4840 to 4840.
+2024-09-16 16:23:09,281 - logger - INFO - Converting ns=2;i=2 to ns=2;i=2.
+2024-09-16 16:23:09,281 - logger - INFO - Converting ns=2;i=2 to ns=2;i=2.
+2024-09-16 16:23:09,281 - logger - INFO - Converting nbh630 to nbh630.
+2024-09-16 16:23:09,281 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,282 - logger - INFO - Converting false to False.
+2024-09-16 16:23:09,282 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,282 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,283 - logger - INFO - Machine test_nbh630 (type: nbh630) initialized with IP 127.0.0.1:4840 and node ID ns=2;i=2.
+2024-09-16 16:23:09,283 - logger - INFO - Converting nbh700 to nbh700.
+2024-09-16 16:23:09,283 - logger - INFO - Converting 127.0.0.1 to 127.0.0.1.
+2024-09-16 16:23:09,283 - logger - INFO - Converting 4841 to 4841.
+2024-09-16 16:23:09,284 - logger - INFO - Converting ns=2;i=2 to ns=2;i=2.
+2024-09-16 16:23:09,284 - logger - INFO - Converting ns=2;i=2 to ns=2;i=2.
+2024-09-16 16:23:09,284 - logger - INFO - Converting nbh700 to nbh700.
+2024-09-16 16:23:09,285 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,285 - logger - INFO - Converting false to False.
+2024-09-16 16:23:09,285 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,286 - logger - INFO - Converting  to .
+2024-09-16 16:23:09,286 - logger - INFO - Machine test_nbh700 (type: nbh700) initialized with IP 127.0.0.1:4841 and node ID ns=2;i=2.
+2024-09-16 16:23:09,298 - logger - INFO - Connected to OPC UA server at 127.0.0.1:4840
+2024-09-16 16:23:09,303 - logger - INFO - Subscription created for 127.0.0.1:4840 with interval 2000ms
+2024-09-16 16:23:09,303 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:23:09,308 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:23:09,310 - logger - INFO - Data change detected on machine test_nbh630 (type: nbh630) on node ns=2;i=2: Wie oft hat das Bundesverfassungsgericht ein Rechtsgutachten erstellt?
+2024-09-16 16:23:09,310 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:23:09,311 - logger - INFO - Machine type nbh630 is different from current VDB type None. Loading new VDB...
+2024-09-16 16:23:09,357 - logger - INFO - Loaded vector database nbh630 successfully.
+2024-09-16 16:23:09,358 - logger - INFO - VDB loaded for machine type nbh630.
+2024-09-16 16:23:09,359 - logger - INFO - Cache hit for query: e599b9b7e1808aa71e719f51166e06ecf4ac98fa72373faee612786dd6abaf0d
+2024-09-16 16:23:09,360 - logger - INFO - Cache hit for machine nbh630. Returning cached response.
+2024-09-16 16:23:09,360 - logger - INFO - RAG response for machine test_nbh630 (node ns=2;i=2): Die Maschine bittet um die Anzahl der Rechtsgutachten, die vom Bundesverfassungsgericht erstellt wurden.
+2024-09-16 16:23:09,360 - logger - INFO - Creating tenant-specific frontend instance for test_nbh630
+2024-09-16 16:23:09,365 - logger - INFO - Tenant HTML created at tenants\test_nbh630\index.html for test_nbh630
+2024-09-16 16:23:09,366 - logger - WARNING - No WebSockets found for tenant test_nbh630
+2024-09-16 16:23:09,366 - logger - INFO - Frontend instance created for tenant test_nbh630 at https://localhost:8000/test_nbh630
+2024-09-16 16:23:11,340 - logger - ERROR - Failed to create subscription for 127.0.0.1:4841: [WinError 1225] Der Remotecomputer hat die Netzwerkverbindung abgelehnt
+2024-09-16 16:23:11,341 - logger - INFO - Creating tenant-specific frontend instance for test_nbh700
+2024-09-16 16:23:11,352 - logger - INFO - Tenant HTML created at tenants\test_nbh700\index.html for test_nbh700
+2024-09-16 16:23:29,585 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:23:29,660 - logger - INFO - Serving HTML file for tenant test_nbh630
+2024-09-16 16:23:30,302 - logger - INFO - WebSocket connection attempt for machineName: test_nbh630
+2024-09-16 16:23:30,304 - logger - INFO - New WebSocket connection for tenant test_nbh630
+2024-09-16 16:23:36,578 - logger - INFO - Received message from tenant test_nbh630: test123
+2024-09-16 16:23:36,579 - logger - INFO - Received request from machine test_nbh630 of type nbh630.
+2024-09-16 16:23:36,581 - logger - INFO - Cache miss for query: d3210ff0f5105b0e6b743f941414c9d8b9fc6f6be273a43ac4d7d89bff7ba5e8
+2024-09-16 16:25:34,893 - logger - INFO - Converting true to True.
+2024-09-16 16:25:34,893 - logger - INFO - Converting 0.0.0.0 to 0.0.0.0.
+2024-09-16 16:25:34,893 - logger - INFO - Converting 8000 to 8000.
+2024-09-16 16:25:34,894 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:25:34,894 - logger - INFO - Converting True to True.
+2024-09-16 16:25:34,894 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:25:34,895 - logger - INFO - Converting ["*"] to ["*"].
+2024-09-16 16:25:34,897 - logger - INFO - Converting BAAI/bge-m3 to BAAI/bge-m3.
+2024-09-16 16:25:34,897 - logger - INFO - Converting false to False.
+2024-09-16 16:25:34,898 - logger - INFO - Converting 2000 to 2000.
+2024-09-16 16:25:34,898 - logger - INFO - Converting true to True.
+2024-09-16 16:25:34,899 - logger - INFO - Converting qwen2-1_5b-instruct-q4_k_m.gguf to qwen2-1_5b-instruct-q4_k_m.gguf.
+2024-09-16 16:25:34,899 - logger - INFO - Converting 256 to 256.
+2024-09-16 16:25:34,900 - logger - INFO - Converting 8192 to 8192.
+2024-09-16 16:25:34,901 - logger - INFO - Converting 40 to 40.
+2024-09-16 16:25:34,901 - logger - INFO - Converting cohere to cohere.
+2024-09-16 16:25:34,902 - logger - INFO - Converting command-r to command-r.
+2024-09-16 16:25:34,903 - logger - INFO - SSL encryption is enabled.
+2024-09-16 16:25:34,903 - logger - INFO - Creating local LLM instance
+2024-09-16 16:25:37,530 - logger - INFO - Initialized LocalLLM instance with configuration parameters.
+2024-09-16 16:25:37,530 - logger - INFO - Loading model: qwen2-1_5b-instruct-q4_k_m.gguf
+2024-09-16 16:25:37,532 - logger - ERROR - Failed to load model qwen2-1_5b-instruct-q4_k_m.gguf: Could not import llama-cpp-python library. Please install the llama-cpp-python library to use this embedding model: pip install llama-cpp-python
+2024-09-16 16:25:44,543 - logger - INFO - VectorDB initialized with model BAAI/bge-m3 on cpu.
+2024-09-16 16:25:44,547 - logger - INFO - Cache table created or verified successfully.
+2024-09-16 16:25:44,548 - logger - INFO - RAG system initialized.
+2024-09-16 16:25:44,549 - logger - INFO - Frontend initialized and tenants directory mounted.

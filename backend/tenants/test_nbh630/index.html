@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hueller-Hille Digitaler Assistent</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            width: 100%;
+            text-align: center;
+        }
+        .header img {
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .response {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            text-align: center;
+            min-height: 60px;
+            color: #333;
+            font-style: normal;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            button {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/test_nbh630/logo.png" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>Digitaler Assistent</h1>
+        <div id="response" class="response">
+            <p id="responseText">Die Maschine bittet um die Anzahl der Rechtsgutachten, die vom Bundesverfassungsgericht erstellt wurden.</p>
+        </div>
+        <form id="queryForm">
+            <label for="query">Feedback:</label>
+            <input type="text" id="query" name="query" required>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+
+    <script>
+        const responseTextElement = document.getElementById('responseText');
+        const queryForm = document.getElementById('queryForm');
+        const queryInput = document.getElementById('query');
+    
+        // Extract the tenant ID from the window's pathname (URL path)
+        const machineName = window.location.pathname.split('/').filter(Boolean).pop();
+    
+        // Check if tenant_id is available
+        if (!machineName) {
+            console.error("Tenant ID not found in URL path.");
+        }
+    
+        // Determine WebSocket protocol based on the current page's protocol
+        const wsProtocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
+
+        // Create the WebSocket connection with the tenant ID
+        const ws = new WebSocket(`${wsProtocol}${window.location.host}/ws?machineName=${machineName}`);
+    
+        ws.onopen = function() {
+            console.log('WebSocket connection established');
+        };
+
+        ws.onmessage = function(event) {
+            console.log('Received message:', event.data);
+            const message = event.data;
+            responseTextElement.style.fontStyle = "normal";
+            responseTextElement.style.color = "#333";
+            responseTextElement.textContent = message;
+        };
+
+        ws.onerror = function(error) {
+            console.error('WebSocket error:', error);
+        };
+
+        ws.onclose = function(event) {
+            console.log('WebSocket connection closed:', event.code, event.reason);
+        };
+    
+        queryForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const query = queryInput.value;
+            if (query.trim()) {
+                console.log('Sending query:', query);
+                ws.send(query);
+                responseTextElement.textContent = "Warte auf Antwort...";
+                queryInput.value = '';
+            }
+        });
+    </script>
+</body>
+</html>
